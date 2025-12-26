@@ -132,8 +132,8 @@ h2 {
   border: 1px solid gray;
   display: block;
   border-radius: 6px;
-  text-align: center;
-  margin: 50px;
+  text-align: left;
+  margin: 10px;
   padding: 10px;
   width: 7in;
   font-size: 20px;
@@ -154,7 +154,7 @@ h2 {
 } 
 
 .skills p {
-  align-items: center;
+  align-items: left;
   font-size: 15px;
   color: gray;
   margin-block-start: 5px;
