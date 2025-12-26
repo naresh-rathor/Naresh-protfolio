@@ -108,12 +108,16 @@ h2 {
 }
 
 .profile_image {
-  width: 350px;
+  /*width: 350px;
   height: fit-content;
-  vertical-align: middle;
+  vertical-align: middle;*/
+  width: 300px; /* Desired width */
+  height: 300px; /* Desired height */
+  object-fit: cover; /* Crops the image to cover the area while maintaining aspect ratio */
+  object-position: center; /* Centers the image within the container */
   margin-top: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10px;
+  margin-right: 50px;
 }
 
 /* Skills */
